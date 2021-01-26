@@ -46,7 +46,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-# TWRP specific build flags
+#TWRP specific build flags
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
@@ -60,12 +60,12 @@ TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXTRA_LANGUAGES := true
 
-# Encryption support
+#Encryption support
 TW_INCLUDE_CRYPTO := true
 #TW_INCLUDE_CRYPTO_SAMSUNG := true
 #TARGET_HW_DISK_ENCRYPTION := true
 
-# Debug flags
+#Debug flags
 #TWRP_EVENT_LOGGING := true
 TW_NEVER_UNMOUNT_SYSTEM := true
 #TARGET_USES_LOGD := true
